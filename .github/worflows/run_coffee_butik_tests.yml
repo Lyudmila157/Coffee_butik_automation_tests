@@ -13,14 +13,14 @@ jobs:
         uses: action/python@v4
         with:
           python-version: "3.12"
-      - name: install Chrome
+      - name: Install Chrome
         run: sudo apt-get install google-chrome-stable
       - name: install dependencies
         run: pip install -r requirements.txt
       - name: Run coffee butik tests
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets. PASSWORD }}
-          PASSWORD_TWO: ${{ secrets. PASSWORD_TWO }}
+#        env:
+#          LOGIN: ${{ secrets.LOGIN }}
+#          PASSWORD: ${{ secrets. PASSWORD }}
+#          PASSWORD_TWO: ${{ secrets. PASSWORD_TWO }}
         run:
           pytest
