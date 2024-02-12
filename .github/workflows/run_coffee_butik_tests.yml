@@ -1,17 +1,24 @@
 name: Coffee butik automation tests
 
-on: [push]
+on: push
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: action/checkout@v2
-      - name: Run coffee butik tests via docker-compose
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install Chrome
+        run: sudo apt-get install google-chrome-stable
+      - name: install dependencies
+        run: pip install -r requirements.txt
+      - name: Run coffee butik tests
         env:
           LOGIN: ${{ secrets.LOGIN }}
           PASSWORD: ${{ secrets. PASSWORD }}
           PASSWORD_TWO: ${{ secrets. PASSWORD_TWO }}
-        run: |
-          docker-compose up --exit-code-from regression || true
+        run: pytest
