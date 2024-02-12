@@ -3,7 +3,7 @@ name: Automated tests
 on: push
 
 jobs:
-  tests:
+  test:
     runs-on: ubuntu-latest
 
     steps:
