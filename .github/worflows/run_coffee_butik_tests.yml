@@ -1,6 +1,6 @@
 name: Automated tests
 
-on: push
+on: [push]
 
 jobs:
   tests:
@@ -23,4 +23,4 @@ jobs:
           PASSWORD: ${{ secrets. PASSWORD }}
           PASSWORD_TWO: ${{ secrets. PASSWORD_TWO }}
         run:
-          docker-compose up --exit-code-from regression || true
+          pytest --exit-code-from regression || true
