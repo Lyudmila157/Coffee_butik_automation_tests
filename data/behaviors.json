@@ -1,0 +1,107 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Adding a product to basket",
+    "children" : [ {
+      "name" : "Add to Basket",
+      "uid" : "3dd55c42fc9e2538",
+      "parentUid" : "3ec50b875d7cd34d701b6597b7682a4e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820305952,
+        "stop" : 1707820316560,
+        "duration" : 10608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ec50b875d7cd34d701b6597b7682a4e"
+  }, {
+    "name" : "Personal authorization page",
+    "children" : [ {
+      "name" : "Authorization",
+      "uid" : "58268d3a7b05fae5",
+      "parentUid" : "9785a03bc461fb3187ba829afe3b396b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820316997,
+        "stop" : 1707820327417,
+        "duration" : 10420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9785a03bc461fb3187ba829afe3b396b"
+  }, {
+    "name" : "Checking the date test",
+    "children" : [ {
+      "name" : "Checking the date test",
+      "uid" : "ce867a25088cc149",
+      "parentUid" : "b9320dc2ffce6ad234f3d3853a90fe86",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820327799,
+        "stop" : 1707820337982,
+        "duration" : 10183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9320dc2ffce6ad234f3d3853a90fe86"
+  }, {
+    "name" : "Remove an item in basket",
+    "children" : [ {
+      "name" : "Delete an item test",
+      "uid" : "6ac7a7ce427786fe",
+      "parentUid" : "976e6ac5553bfcc1457bf3405171805e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820338369,
+        "stop" : 1707820348561,
+        "duration" : 10192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "976e6ac5553bfcc1457bf3405171805e"
+  }, {
+    "name" : "Personal incorrect authorization page",
+    "children" : [ {
+      "name" : "Incorrect authorization",
+      "uid" : "179c5f2a8398034f",
+      "parentUid" : "e0dc0f49b6c6379986e0012ada43e439",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820349068,
+        "stop" : 1707820359513,
+        "duration" : 10445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0dc0f49b6c6379986e0012ada43e439"
+  }, {
+    "name" : "Personal register profile",
+    "children" : [ {
+      "name" : "Register",
+      "uid" : "db45b9cc101c6aad",
+      "parentUid" : "49b6e7a2c12d4dd22d89b3b3f7296b5f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707820359900,
+        "stop" : 1707820370102,
+        "duration" : 10202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "49b6e7a2c12d4dd22d89b3b3f7296b5f"
+  } ],
+  "name" : "behaviors"
+}
