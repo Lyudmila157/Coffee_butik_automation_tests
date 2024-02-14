@@ -1,91 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "3510c036a38c",
+    "name" : "296f22c768a6",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Authorization",
-        "uid" : "dbf575e3cea2e3a9",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707910143934,
-          "stop" : 1707910204368,
-          "duration" : 60434
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add to Basket",
-        "uid" : "940f75594864716d",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707910082827,
-          "stop" : 1707910143488,
-          "duration" : 60661
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Delete an item test",
-        "uid" : "cd62bad64c4ba4cf",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
+        "uid" : "8770c4f1496d2ba4",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
         "status" : "broken",
         "time" : {
-          "start" : 1707910266547,
-          "stop" : 1707910326990,
-          "duration" : 60443
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Register",
-        "uid" : "35bc104e7f08843",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707910388208,
-          "stop" : 1707910448864,
-          "duration" : 60656
+          "start" : 1707911210041,
+          "stop" : 1707911250390,
+          "duration" : 40349
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking the date test",
-        "uid" : "74d812a9620f3d4e",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
+        "uid" : "eb967f3e15c04d4f",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
         "status" : "broken",
         "time" : {
-          "start" : 1707910204736,
-          "stop" : 1707910265181,
-          "duration" : 60445
+          "start" : 1707911169306,
+          "stop" : 1707911209659,
+          "duration" : 40353
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "204012caf64ee18a",
-        "parentUid" : "a7109502cd2369023a947d7d95a12fc1",
+        "uid" : "4543e948a209e97b",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
         "status" : "broken",
         "time" : {
-          "start" : 1707910327373,
-          "stop" : 1707910387824,
-          "duration" : 60451
+          "start" : 1707911250765,
+          "stop" : 1707911291107,
+          "duration" : 40342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to Basket",
+        "uid" : "b46ec72f2365db5",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707911087347,
+          "stop" : 1707911128172,
+          "duration" : 40825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register",
+        "uid" : "69e0c157498254a",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707911291476,
+          "stop" : 1707911331860,
+          "duration" : 40384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization",
+        "uid" : "dcf778996134f3a4",
+        "parentUid" : "5c52d78ef8f459798b0de18755b6b26c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707911128595,
+          "stop" : 1707911168940,
+          "duration" : 40345
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a7109502cd2369023a947d7d95a12fc1"
+      "uid" : "5c52d78ef8f459798b0de18755b6b26c"
     } ],
-    "uid" : "0b8bdfa69d7932bc8081b92debe0b584"
+    "uid" : "42c94fb3c2b33a7688cd0eb800328271"
   } ],
   "name" : "timeline"
 }
