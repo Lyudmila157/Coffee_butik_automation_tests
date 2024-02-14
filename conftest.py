@@ -10,6 +10,7 @@ def driver(request):
     options.add_argument("--headless")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1024,768")
+    options.add_argument("user-data-dir=selenium")
     driver = webdriver.Chrome(options=options)
     request.cls.driver = driver
     yield driver
