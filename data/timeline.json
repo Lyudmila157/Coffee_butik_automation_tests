@@ -1,91 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "a9b4bb98e91e",
+    "name" : "51c8c0dee630",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Register",
-        "uid" : "6cea77435a980d97",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707908532499,
-          "stop" : 1707908593201,
-          "duration" : 60702
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Delete an item test",
-        "uid" : "797f436c006d7946",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
+        "uid" : "bd8c053ee4fcb7e4",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
         "status" : "broken",
         "time" : {
-          "start" : 1707908410726,
-          "stop" : 1707908471242,
-          "duration" : 60516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Authorization",
-        "uid" : "bd6d9ceb2e6aaa0e",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707908288581,
-          "stop" : 1707908349268,
-          "duration" : 60687
+          "start" : 1707909101778,
+          "stop" : 1707909162254,
+          "duration" : 60476
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking the date test",
-        "uid" : "a7fd09c73a083cde",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
+        "uid" : "db28cc96060c6b7d",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
         "status" : "broken",
         "time" : {
-          "start" : 1707908349651,
-          "stop" : 1707908410337,
-          "duration" : 60686
+          "start" : 1707909040565,
+          "stop" : 1707909101392,
+          "duration" : 60827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register",
+        "uid" : "b910c2fa86fd988",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707909223507,
+          "stop" : 1707909284110,
+          "duration" : 60603
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Add to Basket",
-        "uid" : "250018b870ed026e",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
+        "uid" : "b95838fac624d99d",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
         "status" : "broken",
         "time" : {
-          "start" : 1707908227473,
-          "stop" : 1707908288139,
-          "duration" : 60666
+          "start" : 1707908918155,
+          "stop" : 1707908978854,
+          "duration" : 60699
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "89ca23765abbbb89",
-        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
+        "uid" : "341795b80db7695b",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
         "status" : "broken",
         "time" : {
-          "start" : 1707908471635,
-          "stop" : 1707908532108,
+          "start" : 1707909162642,
+          "stop" : 1707909223115,
           "duration" : 60473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "Authorization",
+        "uid" : "49d1fe6e29dbcf58",
+        "parentUid" : "edc94486c82b675625a4261f3b27a765",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707908979297,
+          "stop" : 1707909040176,
+          "duration" : 60879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
-      "uid" : "cdbc0165019d6949784aa0b7e2ea76e0"
+      "uid" : "edc94486c82b675625a4261f3b27a765"
     } ],
-    "uid" : "65bf259a495b0696f374b7acdb032604"
+    "uid" : "01172bc8390b778833d898645ace18e3"
   } ],
   "name" : "timeline"
 }

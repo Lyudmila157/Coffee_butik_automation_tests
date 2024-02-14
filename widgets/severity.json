@@ -1,60 +1,60 @@
 [ {
-  "uid" : "6cea77435a980d97",
-  "name" : "Register",
-  "time" : {
-    "start" : 1707908532499,
-    "stop" : 1707908593201,
-    "duration" : 60702
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "bd6d9ceb2e6aaa0e",
-  "name" : "Authorization",
-  "time" : {
-    "start" : 1707908288581,
-    "stop" : 1707908349268,
-    "duration" : 60687
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "a7fd09c73a083cde",
-  "name" : "Checking the date test",
-  "time" : {
-    "start" : 1707908349651,
-    "stop" : 1707908410337,
-    "duration" : 60686
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "797f436c006d7946",
+  "uid" : "bd8c053ee4fcb7e4",
   "name" : "Delete an item test",
   "time" : {
-    "start" : 1707908410726,
-    "stop" : 1707908471242,
-    "duration" : 60516
+    "start" : 1707909101778,
+    "stop" : 1707909162254,
+    "duration" : 60476
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "89ca23765abbbb89",
+  "uid" : "b910c2fa86fd988",
+  "name" : "Register",
+  "time" : {
+    "start" : 1707909223507,
+    "stop" : 1707909284110,
+    "duration" : 60603
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "db28cc96060c6b7d",
+  "name" : "Checking the date test",
+  "time" : {
+    "start" : 1707909040565,
+    "stop" : 1707909101392,
+    "duration" : 60827
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "341795b80db7695b",
   "name" : "Incorrect authorization",
   "time" : {
-    "start" : 1707908471635,
-    "stop" : 1707908532108,
+    "start" : 1707909162642,
+    "stop" : 1707909223115,
     "duration" : 60473
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "250018b870ed026e",
+  "uid" : "49d1fe6e29dbcf58",
+  "name" : "Authorization",
+  "time" : {
+    "start" : 1707908979297,
+    "stop" : 1707909040176,
+    "duration" : 60879
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "b95838fac624d99d",
   "name" : "Add to Basket",
   "time" : {
-    "start" : 1707908227473,
-    "stop" : 1707908288139,
-    "duration" : 60666
+    "start" : 1707908918155,
+    "stop" : 1707908978854,
+    "duration" : 60699
   },
   "status" : "broken",
   "severity" : "critical"
