@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1496387049eb41fb",
+      "uid" : "1213bb1311cdf11c",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906530307,
-        "stop" : 1707906540719,
-        "duration" : 10412
+        "start" : 1707907954728,
+        "stop" : 1707907954728,
+        "duration" : 0
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a60cd0d7bbedd0e6",
+      "uid" : "cd6cb5117106a1c1",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906541109,
-        "stop" : 1707906551302,
-        "duration" : 10193
+        "start" : 1707907955051,
+        "stop" : 1707907955051,
+        "duration" : 0
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c701c04e6582776c",
+      "uid" : "3c4dfff4125b2b16",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906551694,
-        "stop" : 1707906561895,
-        "duration" : 10201
+        "start" : 1707907955371,
+        "stop" : 1707907955371,
+        "duration" : 0
       }
     } ]
   },
@@ -69,13 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bdfce7d486d12fb5",
+      "uid" : "bcb04515c29f0699",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906562285,
-        "stop" : 1707906572486,
-        "duration" : 10201
+        "start" : 1707907955693,
+        "stop" : 1707907955693,
+        "duration" : 0
       }
     } ]
   },
@@ -89,13 +89,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95dfd302130f52d6",
+      "uid" : "d6d28d2310fb7dc1",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906508299,
-        "stop" : 1707906518932,
-        "duration" : 10633
+        "start" : 1707907953953,
+        "stop" : 1707907953953,
+        "duration" : 0
       }
     } ]
   },
@@ -109,13 +109,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bb8e70e75720be4e",
+      "uid" : "5cf0a26ce310ab26",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "time" : {
-        "start" : 1707906519378,
-        "stop" : 1707906529913,
-        "duration" : 10535
+        "start" : 1707907954407,
+        "stop" : 1707907954407,
+        "duration" : 0
       }
     } ]
   }
