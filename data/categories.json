@@ -3,87 +3,87 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Add to Basket",
-        "uid" : "d6d28d2310fb7dc1",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "250018b870ed026e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907953953,
-          "stop" : 1707907953953,
-          "duration" : 0
+          "start" : 1707908227473,
+          "stop" : 1707908288139,
+          "duration" : 60666
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Authorization",
-        "uid" : "5cf0a26ce310ab26",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "bd6d9ceb2e6aaa0e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907954407,
-          "stop" : 1707907954407,
-          "duration" : 0
+          "start" : 1707908288581,
+          "stop" : 1707908349268,
+          "duration" : 60687
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking the date test",
-        "uid" : "1213bb1311cdf11c",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "a7fd09c73a083cde",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907954728,
-          "stop" : 1707907954728,
-          "duration" : 0
+          "start" : 1707908349651,
+          "stop" : 1707908410337,
+          "duration" : 60686
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete an item test",
-        "uid" : "cd6cb5117106a1c1",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "797f436c006d7946",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955051,
-          "stop" : 1707907955051,
-          "duration" : 0
+          "start" : 1707908410726,
+          "stop" : 1707908471242,
+          "duration" : 60516
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "3c4dfff4125b2b16",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "89ca23765abbbb89",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955371,
-          "stop" : 1707907955371,
-          "duration" : 0
+          "start" : 1707908471635,
+          "stop" : 1707908532108,
+          "duration" : 60473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Register",
-        "uid" : "bcb04515c29f0699",
-        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "uid" : "6cea77435a980d97",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955693,
-          "stop" : 1707907955693,
-          "duration" : 0
+          "start" : 1707908532499,
+          "stop" : 1707908593201,
+          "duration" : 60702
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6a28f92c5c8a4cadb904435561a27c65"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

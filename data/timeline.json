@@ -1,91 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "c46a6c395c38",
+    "name" : "a9b4bb98e91e",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Checking the date test",
-        "uid" : "1213bb1311cdf11c",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
+        "name" : "Register",
+        "uid" : "6cea77435a980d97",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
         "status" : "broken",
         "time" : {
-          "start" : 1707907954728,
-          "stop" : 1707907954728,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Authorization",
-        "uid" : "5cf0a26ce310ab26",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707907954407,
-          "stop" : 1707907954407,
-          "duration" : 0
+          "start" : 1707908532499,
+          "stop" : 1707908593201,
+          "duration" : 60702
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete an item test",
-        "uid" : "cd6cb5117106a1c1",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
+        "uid" : "797f436c006d7946",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955051,
-          "stop" : 1707907955051,
-          "duration" : 0
+          "start" : 1707908410726,
+          "stop" : 1707908471242,
+          "duration" : 60516
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Register",
-        "uid" : "bcb04515c29f0699",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
+        "name" : "Authorization",
+        "uid" : "bd6d9ceb2e6aaa0e",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955693,
-          "stop" : 1707907955693,
-          "duration" : 0
+          "start" : 1707908288581,
+          "stop" : 1707908349268,
+          "duration" : 60687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checking the date test",
+        "uid" : "a7fd09c73a083cde",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707908349651,
+          "stop" : 1707908410337,
+          "duration" : 60686
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Add to Basket",
-        "uid" : "d6d28d2310fb7dc1",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
+        "uid" : "250018b870ed026e",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
         "status" : "broken",
         "time" : {
-          "start" : 1707907953953,
-          "stop" : 1707907953953,
-          "duration" : 0
+          "start" : 1707908227473,
+          "stop" : 1707908288139,
+          "duration" : 60666
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "3c4dfff4125b2b16",
-        "parentUid" : "d361c9e7c5b2dd15c94711b11b84b9bf",
+        "uid" : "89ca23765abbbb89",
+        "parentUid" : "cdbc0165019d6949784aa0b7e2ea76e0",
         "status" : "broken",
         "time" : {
-          "start" : 1707907955371,
-          "stop" : 1707907955371,
-          "duration" : 0
+          "start" : 1707908471635,
+          "stop" : 1707908532108,
+          "duration" : 60473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d361c9e7c5b2dd15c94711b11b84b9bf"
+      "uid" : "cdbc0165019d6949784aa0b7e2ea76e0"
     } ],
-    "uid" : "bcb8b3751f2ce3eb1a50f35e7b3fe44a"
+    "uid" : "65bf259a495b0696f374b7acdb032604"
   } ],
   "name" : "timeline"
 }

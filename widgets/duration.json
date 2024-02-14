@@ -1,60 +1,60 @@
 [ {
-  "uid" : "d6d28d2310fb7dc1",
-  "name" : "Add to Basket",
-  "time" : {
-    "start" : 1707907953953,
-    "stop" : 1707907953953,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "cd6cb5117106a1c1",
-  "name" : "Delete an item test",
-  "time" : {
-    "start" : 1707907955051,
-    "stop" : 1707907955051,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "bcb04515c29f0699",
-  "name" : "Register",
-  "time" : {
-    "start" : 1707907955693,
-    "stop" : 1707907955693,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "1213bb1311cdf11c",
-  "name" : "Checking the date test",
-  "time" : {
-    "start" : 1707907954728,
-    "stop" : 1707907954728,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "5cf0a26ce310ab26",
+  "uid" : "bd6d9ceb2e6aaa0e",
   "name" : "Authorization",
   "time" : {
-    "start" : 1707907954407,
-    "stop" : 1707907954407,
-    "duration" : 0
+    "start" : 1707908288581,
+    "stop" : 1707908349268,
+    "duration" : 60687
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "3c4dfff4125b2b16",
+  "uid" : "a7fd09c73a083cde",
+  "name" : "Checking the date test",
+  "time" : {
+    "start" : 1707908349651,
+    "stop" : 1707908410337,
+    "duration" : 60686
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "250018b870ed026e",
+  "name" : "Add to Basket",
+  "time" : {
+    "start" : 1707908227473,
+    "stop" : 1707908288139,
+    "duration" : 60666
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "89ca23765abbbb89",
   "name" : "Incorrect authorization",
   "time" : {
-    "start" : 1707907955371,
-    "stop" : 1707907955371,
-    "duration" : 0
+    "start" : 1707908471635,
+    "stop" : 1707908532108,
+    "duration" : 60473
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "6cea77435a980d97",
+  "name" : "Register",
+  "time" : {
+    "start" : 1707908532499,
+    "stop" : 1707908593201,
+    "duration" : 60702
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "797f436c006d7946",
+  "name" : "Delete an item test",
+  "time" : {
+    "start" : 1707908410726,
+    "stop" : 1707908471242,
+    "duration" : 60516
   },
   "status" : "broken",
   "severity" : "critical"
