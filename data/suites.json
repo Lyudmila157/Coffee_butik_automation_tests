@@ -8,13 +8,13 @@
         "name" : "TestAddToBasket",
         "children" : [ {
           "name" : "Add to Basket",
-          "uid" : "b46ec72f2365db5",
+          "uid" : "550c5e9b1a033423",
           "parentUid" : "b65855b9537bc7da02326e43afd32c3a",
           "status" : "broken",
           "time" : {
-            "start" : 1707911087347,
-            "stop" : 1707911128172,
-            "duration" : 40825
+            "start" : 1707911527739,
+            "stop" : 1707911568864,
+            "duration" : 41125
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,13 +29,13 @@
         "name" : "TestAuthorizationProfile",
         "children" : [ {
           "name" : "Authorization",
-          "uid" : "dcf778996134f3a4",
+          "uid" : "bfb0e9e00366271c",
           "parentUid" : "3e9bb7a928f1b50113a80a4feaa354e6",
           "status" : "broken",
           "time" : {
-            "start" : 1707911128595,
-            "stop" : 1707911168940,
-            "duration" : 40345
+            "start" : 1707911569323,
+            "stop" : 1707911610307,
+            "duration" : 40984
           },
           "flaky" : false,
           "newFailed" : false,
@@ -50,13 +50,13 @@
         "name" : "TestCheckingDate",
         "children" : [ {
           "name" : "Checking the date test",
-          "uid" : "eb967f3e15c04d4f",
+          "uid" : "666ada671b6bcbdd",
           "parentUid" : "c65464d14f2e4aa7e08881c20a6ae9b5",
           "status" : "broken",
           "time" : {
-            "start" : 1707911169306,
-            "stop" : 1707911209659,
-            "duration" : 40353
+            "start" : 1707911610700,
+            "stop" : 1707911651658,
+            "duration" : 40958
           },
           "flaky" : false,
           "newFailed" : false,
@@ -71,13 +71,13 @@
         "name" : "TestDeleteAnItem",
         "children" : [ {
           "name" : "Delete an item test",
-          "uid" : "8770c4f1496d2ba4",
+          "uid" : "e7fa07f8a6ec9aef",
           "parentUid" : "14cd82c48e3e18d63733ad72c712d0d6",
           "status" : "broken",
           "time" : {
-            "start" : 1707911210041,
-            "stop" : 1707911250390,
-            "duration" : 40349
+            "start" : 1707911652051,
+            "stop" : 1707911693982,
+            "duration" : 41931
           },
           "flaky" : false,
           "newFailed" : false,
@@ -92,13 +92,13 @@
         "name" : "TestIncorrectProfile",
         "children" : [ {
           "name" : "Incorrect authorization",
-          "uid" : "4543e948a209e97b",
+          "uid" : "69b62fea1bf95985",
           "parentUid" : "b92181ff6e627313669a388afb3a3d99",
           "status" : "broken",
           "time" : {
-            "start" : 1707911250765,
-            "stop" : 1707911291107,
-            "duration" : 40342
+            "start" : 1707911694372,
+            "stop" : 1707911734800,
+            "duration" : 40428
           },
           "flaky" : false,
           "newFailed" : false,
@@ -113,13 +113,13 @@
         "name" : "TestRegisterProfile",
         "children" : [ {
           "name" : "Register",
-          "uid" : "69e0c157498254a",
+          "uid" : "42ec25acc84b5887",
           "parentUid" : "5be5f84e7723dca1a4e42baddc30ff3f",
           "status" : "broken",
           "time" : {
-            "start" : 1707911291476,
-            "stop" : 1707911331860,
-            "duration" : 40384
+            "start" : 1707911735188,
+            "stop" : 1707911775612,
+            "duration" : 40424
           },
           "flaky" : false,
           "newFailed" : false,

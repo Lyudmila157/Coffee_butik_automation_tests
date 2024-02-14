@@ -1,60 +1,60 @@
 [ {
-  "uid" : "69e0c157498254a",
-  "name" : "Register",
-  "time" : {
-    "start" : 1707911291476,
-    "stop" : 1707911331860,
-    "duration" : 40384
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "8770c4f1496d2ba4",
-  "name" : "Delete an item test",
-  "time" : {
-    "start" : 1707911210041,
-    "stop" : 1707911250390,
-    "duration" : 40349
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "eb967f3e15c04d4f",
-  "name" : "Checking the date test",
-  "time" : {
-    "start" : 1707911169306,
-    "stop" : 1707911209659,
-    "duration" : 40353
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "4543e948a209e97b",
-  "name" : "Incorrect authorization",
-  "time" : {
-    "start" : 1707911250765,
-    "stop" : 1707911291107,
-    "duration" : 40342
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "b46ec72f2365db5",
-  "name" : "Add to Basket",
-  "time" : {
-    "start" : 1707911087347,
-    "stop" : 1707911128172,
-    "duration" : 40825
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "dcf778996134f3a4",
+  "uid" : "bfb0e9e00366271c",
   "name" : "Authorization",
   "time" : {
-    "start" : 1707911128595,
-    "stop" : 1707911168940,
-    "duration" : 40345
+    "start" : 1707911569323,
+    "stop" : 1707911610307,
+    "duration" : 40984
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "42ec25acc84b5887",
+  "name" : "Register",
+  "time" : {
+    "start" : 1707911735188,
+    "stop" : 1707911775612,
+    "duration" : 40424
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "666ada671b6bcbdd",
+  "name" : "Checking the date test",
+  "time" : {
+    "start" : 1707911610700,
+    "stop" : 1707911651658,
+    "duration" : 40958
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "e7fa07f8a6ec9aef",
+  "name" : "Delete an item test",
+  "time" : {
+    "start" : 1707911652051,
+    "stop" : 1707911693982,
+    "duration" : 41931
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "69b62fea1bf95985",
+  "name" : "Incorrect authorization",
+  "time" : {
+    "start" : 1707911694372,
+    "stop" : 1707911734800,
+    "duration" : 40428
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "550c5e9b1a033423",
+  "name" : "Add to Basket",
+  "time" : {
+    "start" : 1707911527739,
+    "stop" : 1707911568864,
+    "duration" : 41125
   },
   "status" : "broken",
   "severity" : "critical"
