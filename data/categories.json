@@ -3,87 +3,87 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "TypeError: WebDriver.__init__() got multiple values for argument 'options'",
       "children" : [ {
         "name" : "Add to Basket",
-        "uid" : "b95838fac624d99d",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "2ad9d79fce814abf",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707908918155,
-          "stop" : 1707908978854,
-          "duration" : 60699
+          "start" : 1707910007457,
+          "stop" : 1707910007457,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Authorization",
-        "uid" : "49d1fe6e29dbcf58",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "43b622634a045abd",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707908979297,
-          "stop" : 1707909040176,
-          "duration" : 60879
+          "start" : 1707910007484,
+          "stop" : 1707910007484,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking the date test",
-        "uid" : "db28cc96060c6b7d",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "919a3a2c0aeb6a9b",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707909040565,
-          "stop" : 1707909101392,
-          "duration" : 60827
+          "start" : 1707910007490,
+          "stop" : 1707910007490,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete an item test",
-        "uid" : "bd8c053ee4fcb7e4",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "45fb8075e0ac3100",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707909101778,
-          "stop" : 1707909162254,
-          "duration" : 60476
+          "start" : 1707910007495,
+          "stop" : 1707910007495,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "341795b80db7695b",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "51b462a8271bf02c",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707909162642,
-          "stop" : 1707909223115,
-          "duration" : 60473
+          "start" : 1707910007500,
+          "stop" : 1707910007500,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Register",
-        "uid" : "b910c2fa86fd988",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "5eca28745c15a8e0",
+        "parentUid" : "fa8c649bd7bc476e2b86b088c76a9517",
         "status" : "broken",
         "time" : {
-          "start" : 1707909223507,
-          "stop" : 1707909284110,
-          "duration" : 60603
+          "start" : 1707910007505,
+          "stop" : 1707910007505,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "fa8c649bd7bc476e2b86b088c76a9517"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

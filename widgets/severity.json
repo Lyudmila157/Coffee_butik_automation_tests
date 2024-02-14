@@ -1,60 +1,60 @@
 [ {
-  "uid" : "bd8c053ee4fcb7e4",
-  "name" : "Delete an item test",
-  "time" : {
-    "start" : 1707909101778,
-    "stop" : 1707909162254,
-    "duration" : 60476
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "b910c2fa86fd988",
-  "name" : "Register",
-  "time" : {
-    "start" : 1707909223507,
-    "stop" : 1707909284110,
-    "duration" : 60603
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "db28cc96060c6b7d",
-  "name" : "Checking the date test",
-  "time" : {
-    "start" : 1707909040565,
-    "stop" : 1707909101392,
-    "duration" : 60827
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "341795b80db7695b",
-  "name" : "Incorrect authorization",
-  "time" : {
-    "start" : 1707909162642,
-    "stop" : 1707909223115,
-    "duration" : 60473
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "49d1fe6e29dbcf58",
-  "name" : "Authorization",
-  "time" : {
-    "start" : 1707908979297,
-    "stop" : 1707909040176,
-    "duration" : 60879
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "b95838fac624d99d",
+  "uid" : "2ad9d79fce814abf",
   "name" : "Add to Basket",
   "time" : {
-    "start" : 1707908918155,
-    "stop" : 1707908978854,
-    "duration" : 60699
+    "start" : 1707910007457,
+    "stop" : 1707910007457,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "45fb8075e0ac3100",
+  "name" : "Delete an item test",
+  "time" : {
+    "start" : 1707910007495,
+    "stop" : 1707910007495,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "51b462a8271bf02c",
+  "name" : "Incorrect authorization",
+  "time" : {
+    "start" : 1707910007500,
+    "stop" : 1707910007500,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "5eca28745c15a8e0",
+  "name" : "Register",
+  "time" : {
+    "start" : 1707910007505,
+    "stop" : 1707910007505,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "919a3a2c0aeb6a9b",
+  "name" : "Checking the date test",
+  "time" : {
+    "start" : 1707910007490,
+    "stop" : 1707910007490,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "43b622634a045abd",
+  "name" : "Authorization",
+  "time" : {
+    "start" : 1707910007484,
+    "stop" : 1707910007484,
+    "duration" : 0
   },
   "status" : "broken",
   "severity" : "critical"
