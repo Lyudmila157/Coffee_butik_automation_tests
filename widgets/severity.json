@@ -1,60 +1,60 @@
 [ {
-  "uid" : "da9551e69d613b0d",
+  "uid" : "db7a12646e053af",
   "name" : "Register",
   "time" : {
-    "start" : 1707985756148,
-    "stop" : 1707985796577,
-    "duration" : 40429
+    "start" : 1707986139964,
+    "stop" : 1707986180322,
+    "duration" : 40358
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "16f30b5cbcba7d61",
+  "uid" : "6615db0681708de8",
   "name" : "Delete an item test",
   "time" : {
-    "start" : 1707985674496,
-    "stop" : 1707985714933,
-    "duration" : 40437
+    "start" : 1707986058140,
+    "stop" : 1707986098829,
+    "duration" : 40689
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "1aa5dd7f9bf9e284",
+  "uid" : "eb7a578adb06e4ab",
   "name" : "Checking the date test",
   "time" : {
-    "start" : 1707985633271,
-    "stop" : 1707985674107,
-    "duration" : 40836
+    "start" : 1707986017130,
+    "stop" : 1707986057756,
+    "duration" : 40626
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "4f7c2e56a53a1446",
-  "name" : "Incorrect authorization",
-  "time" : {
-    "start" : 1707985715323,
-    "stop" : 1707985755757,
-    "duration" : 40434
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "4539d5f295b2b156",
+  "uid" : "416ee55b45a6fc43",
   "name" : "Authorization",
   "time" : {
-    "start" : 1707985592452,
-    "stop" : 1707985632885,
-    "duration" : 40433
+    "start" : 1707985976193,
+    "stop" : 1707986016745,
+    "duration" : 40552
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "815b30e013c3d8c1",
+  "uid" : "c166f6c0fa9f86f9",
+  "name" : "Incorrect authorization",
+  "time" : {
+    "start" : 1707986099215,
+    "stop" : 1707986139579,
+    "duration" : 40364
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "ade184937f5927ea",
   "name" : "Add to Basket",
   "time" : {
-    "start" : 1707985551361,
-    "stop" : 1707985592009,
-    "duration" : 40648
+    "start" : 1707985934967,
+    "stop" : 1707985975752,
+    "duration" : 40785
   },
   "status" : "broken",
   "severity" : "critical"

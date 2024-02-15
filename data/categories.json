@@ -6,78 +6,78 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Add to Basket",
-        "uid" : "815b30e013c3d8c1",
+        "uid" : "ade184937f5927ea",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985551361,
-          "stop" : 1707985592009,
-          "duration" : 40648
+          "start" : 1707985934967,
+          "stop" : 1707985975752,
+          "duration" : 40785
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Authorization",
-        "uid" : "4539d5f295b2b156",
+        "uid" : "416ee55b45a6fc43",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985592452,
-          "stop" : 1707985632885,
-          "duration" : 40433
+          "start" : 1707985976193,
+          "stop" : 1707986016745,
+          "duration" : 40552
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking the date test",
-        "uid" : "1aa5dd7f9bf9e284",
+        "uid" : "eb7a578adb06e4ab",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985633271,
-          "stop" : 1707985674107,
-          "duration" : 40836
+          "start" : 1707986017130,
+          "stop" : 1707986057756,
+          "duration" : 40626
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete an item test",
-        "uid" : "16f30b5cbcba7d61",
+        "uid" : "6615db0681708de8",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985674496,
-          "stop" : 1707985714933,
-          "duration" : 40437
+          "start" : 1707986058140,
+          "stop" : 1707986098829,
+          "duration" : 40689
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Incorrect authorization",
-        "uid" : "4f7c2e56a53a1446",
+        "uid" : "c166f6c0fa9f86f9",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985715323,
-          "stop" : 1707985755757,
-          "duration" : 40434
+          "start" : 1707986099215,
+          "stop" : 1707986139579,
+          "duration" : 40364
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Register",
-        "uid" : "da9551e69d613b0d",
+        "uid" : "db7a12646e053af",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1707985756148,
-          "stop" : 1707985796577,
-          "duration" : 40429
+          "start" : 1707986139964,
+          "stop" : 1707986180322,
+          "duration" : 40358
         },
         "flaky" : false,
         "newFailed" : false,
