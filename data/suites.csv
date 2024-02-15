@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Feb 15 08:17:50 GMT 2024","Thu Feb 15 08:18:31 GMT 2024","40914","tests","incorrect_authorization_test","TestIncorrectProfile","","","Incorrect authorization",""
+"broken","Thu Feb 15 08:18:31 GMT 2024","Thu Feb 15 08:19:12 GMT 2024","40425","tests","register_test","TestRegisterProfile","","","Register",""
+"broken","Thu Feb 15 08:15:03 GMT 2024","Thu Feb 15 08:15:46 GMT 2024","42684","tests","add_to_basket_test","TestAddToBasket","","","Add to Basket",""
+"broken","Thu Feb 15 08:16:28 GMT 2024","Thu Feb 15 08:17:09 GMT 2024","40813","tests","changing_the_date_test","TestCheckingDate","","","Checking the date test",""
+"broken","Thu Feb 15 08:17:09 GMT 2024","Thu Feb 15 08:17:50 GMT 2024","40784","tests","delete_an_item_test","TestDeleteAnItem","","","Delete an item test",""
+"broken","Thu Feb 15 08:15:46 GMT 2024","Thu Feb 15 08:16:27 GMT 2024","40929","tests","authorization_test","TestAuthorizationProfile","","","Authorization",""

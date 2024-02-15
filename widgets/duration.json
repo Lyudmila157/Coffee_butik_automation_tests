@@ -1,1 +1,61 @@
-[ ]
+[ {
+  "uid" : "c06792cf7a1ba5e5",
+  "name" : "Incorrect authorization",
+  "time" : {
+    "start" : 1707985070596,
+    "stop" : 1707985111510,
+    "duration" : 40914
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "6baaab28ecb690b1",
+  "name" : "Register",
+  "time" : {
+    "start" : 1707985111901,
+    "stop" : 1707985152326,
+    "duration" : 40425
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "235a944de9817ef",
+  "name" : "Add to Basket",
+  "time" : {
+    "start" : 1707984903764,
+    "stop" : 1707984946448,
+    "duration" : 42684
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "6eefdc75ec6a821e",
+  "name" : "Checking the date test",
+  "time" : {
+    "start" : 1707984988212,
+    "stop" : 1707985029025,
+    "duration" : 40813
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "330fab7dac1386ec",
+  "name" : "Delete an item test",
+  "time" : {
+    "start" : 1707985029416,
+    "stop" : 1707985070200,
+    "duration" : 40784
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "82e876b983987e9f",
+  "name" : "Authorization",
+  "time" : {
+    "start" : 1707984946891,
+    "stop" : 1707984987820,
+    "duration" : 40929
+  },
+  "status" : "broken",
+  "severity" : "critical"
+} ]

@@ -1,4 +1,70 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 6,
+  "items" : [ {
+    "uid" : "3ec50b875d7cd34d701b6597b7682a4e",
+    "name" : "Adding a product to basket",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9785a03bc461fb3187ba829afe3b396b",
+    "name" : "Personal authorization page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b9320dc2ffce6ad234f3d3853a90fe86",
+    "name" : "Checking the date test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "976e6ac5553bfcc1457bf3405171805e",
+    "name" : "Remove an item in basket",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e0dc0f49b6c6379986e0012ada43e439",
+    "name" : "Personal incorrect authorization page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "49b6e7a2c12d4dd22d89b3b3f7296b5f",
+    "name" : "Personal register profile",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }
