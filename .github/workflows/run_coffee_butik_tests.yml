@@ -1,125 +1,30 @@
 name: UI coffee butik tests
 
-on:
-  workflow_dispatch:
-    inputs:
-      deployment_target:
-        description: Choose target
-        required: true
-        default: second_test
-        type: choice
-        options:
-          - first_test
-          - second_test
-          - three_test
-          - fourth_test
-          - fifth_test
-          - sixth_test
-          - all_tests
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+on: [push]
 
 jobs:
-  tests:
+  ui-tests:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.12"
-      - name: Install Chrome
-        run: sudo apt-get install google-chrome-stable
-      - name: install dependencies
-        run: pip install -r requirements.txt
-      - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
-      - name: first_test
-        if: "github.event.inputs.deployment_target == 'first_test'"
-        run: pytest tests/add_to_basket_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: second_test
-        if: "github.event.inputs.deployment_target == 'second_test'"
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          PASSWORD_TWO: ${{ secrets.PASSWORD_TWO }}
-        run: pytest tests\authorization_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: three_test
-        if: "github.event.inputs.deployment_target == 'three_test'"
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          PASSWORD_TWO: ${{ secrets.PASSWORD_TWO }}
-        run: pytest tests\changing_the_date_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: fourth_test
-        if: "github.event.inputs.deployment_target == 'fourth_test'"
-        run: pytest tests\delete_an_item_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: fifth_test
-        if: "github.event.inputs.deployment_target == 'fifth_test'"
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          PASSWORD_TWO: ${{ secrets.PASSWORD_TWO }}
-        run: pytest tests\incorrect_authorization_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: sixth_test
-        if: "github.event.inputs.deployment_target == 'sixth_test'"
-        run: pytest tests\register_test.py --alluredir=allure-results
-        continue-on-error: true
-      - name: all_tests
-        if: "github.event.inputs.deployment_target == 'all_tests'"
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          PASSWORD_TWO: ${{ secrets.PASSWORD_TWO }}
-        run: pytest pytest --alluredir=allure-results
-        continue-on-error: true
-      - name: Store allure results
-        uses: actions/upload-artifact@v3
-        with:
-          name: allure-results
-          path:
-            allure-results
-          retention-days: 30
 
-  generate-report:
-    runs-on: ubuntu-latest
-    needs: tests
-    name: Generate report
     steps:
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'microsoft' # See 'Supported distributions' for available options
-          java-version: '17'
-      - run: sudo wget https://github.com/allure-framework/allure2/releases/download/2.23.1/allure-2.23.1.tgz && sudo tar -zxvf allure-2.23.1.tgz -C /opt/ && sudo ln -s /opt/allure-2.23.1/bin/allure /usr/bin/allure
-      - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
-      - run: allure generate -c allure-results -o _site
-      - name: Store generated report
-        uses: actions/upload-artifact@v3
-        with:
-          name: _site
-          path:
-            _site
-          retention-days: 30
+      - uses: actions/checkout@v3
 
-  publish-report:
-    runs-on: ubuntu-latest
-    needs: generate-report
-    name: Report publication
-    steps:
-      - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Run UI-tests via docker-compose
+        env:
+          LOGIN: ${{ secrets.LOGIN }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          PASSWORD_TWO: ${{ secrets.PASSWORD_TWO }}
+        run: |
+          docker-compose up --exit-code-from regression || true
+
+      - name: Generate Allure report
+        run: |
+          sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1.2.9
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          token: ${{ secrets.COFFEE_TOKEN }}
+          branch: gh-pages
+          folder: allure-report
+          clean: true
