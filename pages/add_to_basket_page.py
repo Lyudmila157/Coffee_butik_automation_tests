@@ -4,7 +4,7 @@ from config.links import Links
 from selenium.webdriver.support import expected_conditions as EC
 # from selenium import webdriver
 # from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.common.by import By
 # options = Options()
 # driver = webdriver.Chrome(options=options)
 
@@ -19,6 +19,10 @@ class AddToBasketPage(Base_Page):
     CHOOSE_A_COFFEE_MAKER = ("xpath", "(//div[@class='catalogItem__name bx_catalog_item_title'])[2]")
     PRODUCT = ("xpath", "//span[@id='mobile_item_quantity']")
     PRODUCT_IN_BUSKET = ("xpath", "//h2[@class='bx_ordercart_itemtitle']")
+    # ELEMENT = ("xpath", "//a[@href='https://kazan.coffee-butik.ru/katalog/kofemashiny/bialetti/']")
+    # BIALETTI = ("xpath", "((//ul[@class='sm-menu__menu active']/li/a)[19]")
+    # BIALETTI = ("xpath", "(//ul[@class='sm-menu__menu active']/li)[19]")
+    # BIALETTI = ("xpath", "(//div[@class='sm-menu__collapse-content active']/ul/li)[4]")
 
     @allure.step("Enter menu")
     def enter_menu(self):
@@ -35,6 +39,10 @@ class AddToBasketPage(Base_Page):
     @allure.step("Enter type")
     def enter_type(self):
         self.wait.until(EC.element_to_be_clickable(self.TYPE)).click()
+
+    # @allure.step("Bialetty")
+    # def element_Bialetty(self):
+    #     self.driver.find_element("xpath", "(//div[@class='sm-menu__collapse-content active']/ul/li)[4]").click()
 
     @allure.step("New_page")
     def new_page(self):
