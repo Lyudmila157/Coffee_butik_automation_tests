@@ -18,6 +18,8 @@ class TestAddToBasket(BaseTest):
         self.add_to_basket_page.enter_type()
         self.add_to_basket_page.new_page()
         self.add_to_basket_page.busket_button()
-        self.add_to_basket_page.choose_a_coffee_maker()
+        self.add_to_basket_page.buy_button()
+        self.add_to_basket_page.choose_a_basket()
         self.add_to_basket_page.product()
-        self.add_to_basket_page.product_in_busket()
+        self.add_to_basket_page.product_in_basket()
+

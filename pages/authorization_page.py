@@ -28,5 +28,3 @@ class AuthorizationPage(Base_Page):
     def page_authorisation_open(self):
         self.wait.until(EC.element_to_be_clickable(self.PATRONYMIC_BUTTON))
 
-
-

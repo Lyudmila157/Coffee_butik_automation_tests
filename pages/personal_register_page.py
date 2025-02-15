@@ -44,7 +44,7 @@ class PersonalRegisterPage(Base_Page):
     CHECKBOX = ("xpath", "//input[@type='checkbox']")
     REGISTER_SUBMIT_BUTTON = ("xpath", "//input[@name='register_submit_button']")
 
-    # The user enters a random username
+
     @allure.step("Enter login field")
     def enter_login_field(self):
         login_field = self.wait.until(EC.element_to_be_clickable(self.LOGIN_FIELD))
